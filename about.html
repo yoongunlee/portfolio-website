@@ -15,24 +15,24 @@
 
 <body>
     <div>
-        <a href="index.html"><img src="img/Yoon Lee.svg"
-            width="50%"
-            height="auto"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <header class="css-box-shadow">
+            <a class="logo" href="index.html"><img src="img/Yoon Lee.svg" class="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html" target="_self">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
     </div>
 
-    <main>
-        <div id="hero">
+    <main id="main">
+        <div class="aboutme">
             <div>
                 <picture>
                     <source srcset="./img/profilepic@1.jpeg" media="(max-width:767px)">
-                    <img src="./img/profilepic@2.jpeg" alt="profile picture">
+                    <img src="./img/profilepic@2.jpeg" alt="profile picture" class="profilepic">
                 </picture>
 
                 <h1>About Me</h1>
@@ -41,10 +41,10 @@
                 <p>I believe that great design goes beyond aesthetics—it’s about understanding user needs, solving problems creatively, and improving interactions in a way that feels natural. My journey began with a fascination for how technology can enhance everyday life, and since then, I’ve worked on a variety of projects, from mobile apps to web platforms, ensuring each product is both visually compelling and easy to use.</p>
                 <p>I’m always excited to collaborate with cross-functional teams to bring ideas to life, iterate, and make data-driven design decisions that align with business goals. Whether it’s prototyping, wireframing, or conducting user research, I’m focused on delivering exceptional experiences that drive user engagement.</p>
                 
-                <a href="./files/Yoon Lee Resume.pdf" target="_blank" class="button resume">My Resume</a>
+                <p><a href="./files/Yoon Lee Resume.pdf" target="_blank" class="button resume">My Resume</a></p>
 
                 <h1>Skills & Tools</h1>
-                    <h3>Skills</h3>
+                        <h3>Skills</h3>
                         <ul>
                             <li>User Research</li>
                             <li>Wireframing</li>
@@ -54,6 +54,7 @@
                             <li>Visual Design</li>
                             <li>Basic HTML/CSS/Javascript</li>
                         </ul>
+                    
                     
                     <h3>Tools</h3>
                         <ul>
@@ -71,10 +72,14 @@
         <div>
             <footer id="contact">
                 <h2>Get In Touch</h2>
+
                 <p>If you're looking for a designer who is passionate about both form and function, let's connect and create something amazing together!</p>
-                <a href="tel:+11231231234">Call Me</a> or <a href="mailto:yoongunlee@gmail.com">Email Me</a>
-                <p><a href="In"><img width="50px"  src="img/linkedin.svg"></a>
-                <a href="Be"><img width="50px" src="img/behance.svg"></a></p>
+                
+                <p><a href="tel:+11231231234" class="button contact">Call Me</a> <a href="mailto:yoongunlee@gmail.com" class="button contact">Email Me</a></p>
+                
+                <p><a href="In" target="_blank"><img width="50px"  src="img/linkedin.svg" class="social"></a>
+                <a href="Be" target="_blank"><img width="50px" src="img/behance.svg" class="social"></a></p>
+                
                 <h6>Copyright Yoon Lee 2025</h6>
             </footer>
         </div>
