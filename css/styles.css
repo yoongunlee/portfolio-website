@@ -313,7 +313,11 @@ nav > ul > li {
   }
 }
 
-/*large devices (1024px and larger)*/
+.text-container {
+    padding: 50px 240px;
+  }
+  
+/*large devices (1024px and larger)
 @media only screen and (min-width: 1024px){
     header {
       text-align: unset;
@@ -344,9 +348,13 @@ nav > ul > li {
     }
   
   
-    .col-md-6 {
-      width:50%;
-     }
+    .col-lg-7 {
+        width: 58.3%;
+      }
+    
+      .col-lg-5 {
+        width: 41.7%;
+      }
   
      [class*="col-"] {
       float: left;
