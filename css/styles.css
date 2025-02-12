@@ -56,12 +56,9 @@ nav {
 /*main*/
 
 main {
-    padding-top: 130px;
+    padding-top: 180px;
   }
 
-#main h1 {
-    padding-top: 0px;
-}
 
 body {
     background-color: white;
@@ -227,13 +224,15 @@ p {
     display: block;
     margin:0 auto;
     text-align:center;
-    border-radius: 50%;
-
+    border-radius: 50%;    
 }
 
-.aboutme  {
-    padding: 0 50px 0 50px;
+#profilemain{
+    padding-top: 180px;
 }
+
+
+
 
 .aboutme li {
    display: block;
@@ -250,6 +249,10 @@ p {
     text-align: unset;
     padding: 20px 0 10px;
   }
+
+  .aboutme  p, h1 {
+    padding: 0 150px 0 150px;
+    }
 
   nav {
     width: auto;
@@ -279,4 +282,5 @@ p {
     padding: 0 15px;
 }
 }
+
 
