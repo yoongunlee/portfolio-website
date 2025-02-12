@@ -147,6 +147,7 @@ p {
     border-radius: 5px;
     border-bottom: 2px;
     transition: 0.2s opacity;
+    
 }
 
 .button:hover {
@@ -243,7 +244,7 @@ p {
    display: block;
 }
 
-.aboutme p, h1 {
+.aboutme h1 {
     text-align: center;
 }
 
