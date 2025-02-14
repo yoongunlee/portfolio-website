@@ -52,6 +52,44 @@ nav > ul > li > a {
     text-decoration: none;
   }
 
+  .navlink {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+  }
+  
+  .navtoggle.responsive li  {
+    display: block;
+  }
+  
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #ABD1C9;
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
+
 .logo {
     max-width: 300px;
     margin-left: auto;
