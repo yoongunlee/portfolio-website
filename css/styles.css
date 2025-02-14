@@ -110,7 +110,7 @@ nav > ul > li > a {
 /*main*/
 
 main {
-    padding-top: 160px;
+    padding-top: 100px;
   }
 
 
@@ -140,6 +140,7 @@ h1 {
 h2 {
     font-size: 1.75em;
     font-weight: 700;
+    margin: 0 13px;
 }
 
 h3 {
@@ -266,7 +267,7 @@ p {
 /*layout styling*/
 
 .container {
-    padding: 0 15px 0 15px;
+    padding: 0 0 0 0;
 }
 
 
@@ -312,6 +313,10 @@ p {
 #contact h2 {
     padding: 20px;
     margin: 5px;
+}
+
+#contact p {
+    padding: 0 15px;
 }
 
 .profilepic {
@@ -376,9 +381,10 @@ ul {
   .logo {
     max-width: 200px;
     padding: 10px;
-    margin-left: auto;
+    margin-left: 15px;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .aboutme  p, h1 {
@@ -405,6 +411,7 @@ ul {
 
   main {
     font-size: 18pxs;
+    padding-top: 160px;
   }
   
   ul {
@@ -461,6 +468,7 @@ nav > ul > li {
   
     main {
       font-size: 18pxs;
+      padding-top: 160px;
     }
     ul {
       list-style: none;
